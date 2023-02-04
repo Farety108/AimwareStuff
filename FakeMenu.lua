@@ -1,0 +1,5 @@
+local menuref = gui.Reference("MENU")
+local settingsref = gui.Reference("SETTINGS")
+local fmtab = gui.Tab(settingsref, "fmtab", "FakeMenu")
+local fmbox = gui.Groupbox(fmtab, "Fake Menu", 16, 16)
+local fmenabled = gui.Checkbox(fmbox, "fmenabled", "Enabled", 0)
